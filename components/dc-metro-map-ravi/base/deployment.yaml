@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-ravi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/ex-registry-zvuu-tenant/appstudio/dc-metro-map-ravi@sha256:f1a56ef1673f55c1c0bbd168a6dc2ac081541854a10349d89172388f677e7c29
         name: my-nodejs
         ports:
         - containerPort: 3001
